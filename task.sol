@@ -98,10 +98,8 @@ function addQuantity(string memory _product, uint _quantity) public onlyOwner {
                              orders[i] = orders[orders.length - 1];
                              orders.pop();
                             }
-
-                          
                         }
                     }
-                }
+             }
     }
 }
