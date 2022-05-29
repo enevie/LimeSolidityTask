@@ -87,6 +87,8 @@ function addQuantity(string memory _product, uint _quantity) public onlyOwner {
 
 
     function returnProduct(uint _id) public {
+    //not sure is this is the correct way for comparing blocks as time stamp, anyway the books says its not a good practice to use blocks as timestamp
+ 
         require(block.timestamp > 100, "Your warranty is expired.");
 
              for (uint i = 0; i < orders.length; i++){
