@@ -26,7 +26,6 @@ address[] private historyOrders;
 
 address private owner;
 uint productsCount;
-uint addressRegistryCount;
 
     constructor(){
         owner = msg.sender;
